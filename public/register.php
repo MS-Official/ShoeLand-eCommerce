@@ -106,7 +106,7 @@
                 onfocus="this.style.borderColor='#ff5733'" onblur="this.style.borderColor=''" />
         </div>
 
-        <!-- Login Button -->
+        <!-- Register or Submit Button -->
         <button type="submit"
             style="width: 100%; padding: 10px; color: white; font-size: 1.2rem; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s ease; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);"
             onmouseover="this.style.backgroundColor='#ff7849'"
@@ -118,9 +118,39 @@
     </div>
 
     <!-- Footer Section -->
-    <!-- Import header -->
+    <!-- Import footer -->
     <?php include '../includes/footer.php'; ?>
 
 </body>
 
 </html>
+
+
+<?php
+// Include database connection
+include('db_connect.php');
+
+// Check if form data is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // Hash the password
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
+    // Insert user details into the database
+    $sql = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sss", $username, $email, $hashedPassword);
+
+    if ($stmt->execute()) {
+        echo "Registration successful!";
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    $stmt->close();
+}
+$conn->close();
+?>
