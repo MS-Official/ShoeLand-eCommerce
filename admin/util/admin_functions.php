@@ -4,7 +4,7 @@ session_start();
 // Database connection
 $servername = "127.0.0.1:8889";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "shoeland_db";
 
 // Create connection

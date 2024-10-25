@@ -1,4 +1,4 @@
-<?php include"./util/admin_functions.php"; ?>
+<?php include"/Applications/MAMP/htdocs/ShoeLand-eCommerce/admin/util/admin_functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
