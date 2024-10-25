@@ -86,7 +86,7 @@
 
     <!-- Main Section -->
     <main style="padding: 20px; text-align: center;">
-        <h1 style="color: #ff5733;">Welcome to Shoe Land</h1>
+        <h1 style="color: #ff5733;">Welcome to ShoeLand</h1>
 
         <!-- Contact Info Section -->
         <div class="contact-info"
