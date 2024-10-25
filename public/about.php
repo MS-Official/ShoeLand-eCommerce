@@ -86,14 +86,23 @@
 
     <!-- Main Section -->
     <main style="padding: 20px; text-align: center;">
+<<<<<<< HEAD
         <h1 style="color: #ff5733;">Welcome to Shoe Land</h1>
+=======
+        <h1 style="color: #ff5733;">Welcome to ShoeLand</h1>
+>>>>>>> Version1.0
 
         <!-- Contact Info Section -->
         <div class="contact-info"
             style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; margin: 20px 0; padding: 10px;">
             <div class="contact-item" style="display: flex; align-items: center; margin: 10px;">
                 <i class="fas fa-map-marker-alt" style="font-size: 20px; margin-right: 10px; color: #ff5733;"></i>
+<<<<<<< HEAD
                 <p style="margin: 0;">23 Alles Road, Negombo</p>
+=======
+                <p style="margin: 0;">123 Shoe Land St.,</p>
+                <p style="margin: 0;">City, Country</p>
+>>>>>>> Version1.0
             </div>
             <div class="contact-item" style="display: flex; align-items: center; margin: 10px;">
                 <i class="fas fa-phone-alt" style="font-size: 20px; margin-right: 10px; color: #ff5733;"></i>
