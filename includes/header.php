@@ -2,7 +2,7 @@
 
 <header style="background-color: #333; color: #fff; padding: 10px; position: sticky; top: 0; z-index: 10; width: auto;">
     <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto;">
-        <h1 style="font-size: 2.5rem; margin: 0; color: #ff5733; font-family: Arial, sans-serif;">Shoe Land</h1>
+        <h1 style="font-size: 2.5rem; margin: 0; color: #ff5733; font-family: Arial, sans-serif;">ShoeLand</h1>
         <nav>
             <ul style="list-style: none; display: flex; gap: 15px; margin: 0; padding: 0; align-items: center;">
                 <li><a href="home.php" style="color: #fff; text-decoration: none; font-size: 1rem;"><i class="fas fa-home icon"></i></a></li>
