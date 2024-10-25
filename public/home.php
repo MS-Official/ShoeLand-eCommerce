@@ -25,11 +25,11 @@
     <!-- Welcome Banner Section with Slider -->
     <section class="banner-slider">
         <div class="slides">
-            <img src="http://localhost:8080/ShoeLand/assets/Banner2.jpg" alt="Banner 3">
-            <img src="http://localhost:8080/ShoeLand/assets/Banner3.jpg" alt="Banner 4">
-            <img src="http://localhost:8080/ShoeLand/assets/Banner5.jpg" alt="Banner 5">
-            <img src="http://localhost:8080/ShoeLand/assets/Banner7.jpg" alt="Banner 7">
-            <img src="http://localhost:8080/ShoeLand/assets/Banner8.jpg" alt="Banner 8">
+            <img src="http://localhost:8888/ShoeLand/assets/Banner2.jpg" alt="Banner 2">
+            <img src="http://localhost:8888/ShoeLand/assets/Banner3.jpg" alt="Banner 3">
+            <img src="http://localhost:8888/ShoeLand/assets/Banner5.jpg" alt="Banner 5">
+            <img src="http://localhost:8888/ShoeLand/assets/Banner7.jpg" alt="Banner 7">
+            <img src="http://localhost:8888/ShoeLand/assets/Banner8.jpg" alt="Banner 8">
         </div>
 
 
@@ -55,7 +55,7 @@
                 <a href="#" style="text-decoration: none; color: inherit;">
                     <video id="menCategoryVideo" muted playsinline
                         style="width: 320px; height: 240px; border-radius: 10px;">
-                        <source src="http://localhost:8080/ShoeLand/assets/CategoryVideo/Men_Category.mp4"
+                        <source src="http://localhost:8888/ShoeLand/assets/CategoryVideo/Men_Category.mp4"
                             type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -67,7 +67,7 @@
                 <a href="#" style="text-decoration: none; color: inherit;">
                     <video id="womenCategoryVideo" muted playsinline
                         style="width: 320px; height: 240px; border-radius: 10px;">
-                        <source src="http://localhost:8080/ShoeLand/assets/CategoryVideo/Women_Category.mp4"
+                        <source src="http://localhost:8888/ShoeLand/assets/CategoryVideo/Women_Category.mp4"
                             type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -79,7 +79,7 @@
                 <a href="#" style="text-decoration: none; color: inherit;">
                     <video id="kidCategoryVideo" muted playsinline
                         style="width: 320px; height: 240px; border-radius: 10px;">
-                        <source src="http://localhost:8080/ShoeLand/assets/CategoryVideo/Kids_Category.mp4"
+                        <source src="http://localhost:8888/ShoeLand/assets/CategoryVideo/Kids_Category.mp4"
                             type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
