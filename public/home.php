@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShoeLand E-commerce</title>
+    <title>Home | ShoeLand eCommerce</title>
     <link rel="icon" href="http://localhost:8888/ShoeLand-Ecommerce/assets/Shoeland.png" class="logo"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -178,7 +178,7 @@
         <!-- Add product cards or images here -->
     </section>
 
-
+    <!-- Footer Section -->
     <?php include '../includes/footer.php'; ?>
 
     <style>
