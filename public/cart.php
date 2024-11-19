@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://localhost:8888/ShoeLand-Ecommerce/assets/Shoeland.png" class="logo"/>
     <title>Your Cart</title>
     <script src="../js/darkmode.js"></script>
 

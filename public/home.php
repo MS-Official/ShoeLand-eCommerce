@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShoeLand E-commerce</title>
+    <link rel="icon" href="http://localhost:8888/ShoeLand-Ecommerce/assets/Shoeland.png" class="logo"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Sweet alert library -->
@@ -96,21 +97,22 @@
         <div
             style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; gap: 20px;">
             <div class="product-card" style="flex: 1; min-width: 250px; margin: 10px;">
-                <img src="https://via.placeholder.com/250x250?text=Product+1" alt="Product 1"
+                <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product7.png" alt="Product 1"
                     style="width: 100%; height: auto; border-radius: 10px;">
                 <h3 style="font-size: 1.5rem; margin-top: 10px;">Stylish Sneakers</h3>
                 <p style="color: #ff5733; font-size: 1.25rem;">$49.99</p>
                 <button>Add to Cart</button>
             </div>
             <div class="product-card" style="flex: 1; min-width: 250px; margin: 10px;">
-                <img src="https://via.placeholder.com/250x250?text=Product+1" alt="Product 2"
+                <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product5.png" alt="Product 2"
                     style="width: 100%; height: auto; border-radius: 10px;">
                 <h3 style="font-size: 1.5rem; margin-top: 10px;">Classic Loafers</h3>
                 <p style="color: #ff5733; font-size: 1.25rem;">$59.99</p>
                 <button>Add to Cart</button>
             </div>
             <div class="product-card" style="flex: 1; min-width: 250px; margin: 10px;">
-                <img src="https://via.placeholder.com/250x250?text=Product+1" alt="Product 3"
+                <!-- <img src="https://via.placeholder.com/250x250?text=Product+1" alt="Product 3" -->
+                <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product6.png" alt="Product 3"
                     style="width: 100%; height: auto; border-radius: 10px;">
                 <h3 style="font-size: 1.5rem; margin-top: 10px;">Sporty Sandals</h3>
                 <p style="color: #ff5733; font-size: 1.25rem;">$34.99</p>
@@ -186,6 +188,7 @@
             color: #000;
             /* Default text color */
         }
+
 
         .dark-mode {
             color: #fff;

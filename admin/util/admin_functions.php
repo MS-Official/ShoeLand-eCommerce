@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include('db_connect.php');
+include('/Applications/MAMP/htdocs/ShoeLand-eCommerce/includes/db_connect.php');
 
 // Pagination settings
 $items_per_page = 10;
