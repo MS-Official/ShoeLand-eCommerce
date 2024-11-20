@@ -176,6 +176,13 @@
         <p style="font-size: 1.25rem; margin-bottom: 30px;">Browse through our exclusive range of shoes designed for
             comfort and style.</p>
         <!-- Add product cards or images here -->
+         <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product1.png" alt="Product 1">
+    </section>
+
+     <!-- Privacy Policy Section -->
+     <section style="padding: 40px; text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Privacy Policy</h2>
+        <a href="privacy_policy.php" style="font-size: 1.25rem; margin-bottom: 30px;">Click the Link to Visit for Privacy Policy Page</a>
     </section>
 
     <!-- Footer Section -->
