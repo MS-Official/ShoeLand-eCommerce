@@ -18,13 +18,13 @@
         <main>
             <div class="product-container">
                 <div class="product-images">
-                    <img src="https://via.placeholder.com/400x400?text=Product" alt="Vintage Camera" class="main-image">
+                    <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product3.png" alt="Vintage Camera" class="main-image">
                     <section class="thumbnail-slider">
                         <button id="prev-button" class="slider-button">&lt;</button>
                         <div class="thumbnail-container">
-                            <img src="https://via.placeholder.com/200x200?text=Product+1" alt="Thumbnail 1" class="thumbnail" onclick="changeMainImage(this)"/>
-                            <img src="https://via.placeholder.com/200x200?text=Product+2" alt="Thumbnail 2" class="thumbnail" onclick="changeMainImage(this)"/>
-                            <img src="https://via.placeholder.com/200x200?text=Product+3" alt="Thumbnail 3" class="thumbnail" onclick="changeMainImage(this)"/>
+                            <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product3.png" alt="Thumbnail 1" class="thumbnail" onclick="changeMainImage(this)"/>
+                            <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product2.png" alt="Thumbnail 2" class="thumbnail" onclick="changeMainImage(this)"/>
+                            <img src="http://localhost:8888/ShoeLand-Ecommerce/assets/product5.png" alt="Thumbnail 3" class="thumbnail" onclick="changeMainImage(this)"/>
                             <img src="https://via.placeholder.com/200x200?text=Product+4" alt="Thumbnail 4" class="thumbnail" onclick="changeMainImage(this)"/>
                             <img src="https://via.placeholder.com/200x200?text=Product+5" alt="Thumbnail 5" class="thumbnail" onclick="changeMainImage(this)"/>
                         </div>
