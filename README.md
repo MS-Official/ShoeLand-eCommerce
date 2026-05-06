@@ -22,7 +22,3 @@ This is a detailed product page for the ShoeLand eCommerce website. It displays 
 - **JavaScript**
 - **PHP** (for including reusable components like headers and footers)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 8c6eb4ff3ea866a4ffd2e28327b821feacdd9a03
